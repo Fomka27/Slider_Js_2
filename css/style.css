@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+.myslider {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+.myslider .slide-img {
+    max-width: 80%;
+}
+.myslider .show-prev-btn, .myslider .show-next-btn {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+    border-radius: 50%;
+    text-align: center;
+}
+.myslider .show-prev-btn {
+    left: 10%;
+}
+.myslider .show-next-btn {
+    right: 10%;
+}
